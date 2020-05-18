@@ -1,3 +1,7 @@
+# the following code was performed in Jupyter Notebook 
+# the (actual-MEAN) phases were ploted rather than the actual phases 
+# vertical shifts in the plots do not influence observations 
+
 import numpy as np
 import matplotlib.pyplot as plt 
 
@@ -31,6 +35,7 @@ plt.title('Randomly Initialized Fireflies Phases')
 print("The average phase is ", np.mean(curr_phase)) 
 print("The standard deviation of phase is ", np.std(curr_phase)) 
 
+# the following lines were used repeatedly for 200, 400, 600, ... steps 
 phases_minus_mean = calculate_phases(curr_phase, step_size, dt) 
 plot_phases(phases_minus_mean) 
 plt.title('Fireflies Phases After # Steps')
