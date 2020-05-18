@@ -1,4 +1,5 @@
 # the following code was performed in Jupyter Notebook 
+# directly running the following code might result in two graphs in a same plot 
 # the (actual-MEAN) phases were ploted rather than the actual phases 
 # vertical shifts in the plots do not influence observations 
 
